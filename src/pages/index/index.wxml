@@ -1,0 +1,13 @@
+<view class="container">
+	<image class="indexImage" src="http://7xkinp.com1.z0.glb.clouddn.com/music.png"></image>
+	<view class="tipText">今天你喝水了吗？</view>
+</view>
+
+<view class="iFooter">
+	<navigator class="footerTab" url="/pages/time/time" hover-class="navigator-hover">
+		<view class="iconfont icon-shizhong"></view>时间
+	</navigator>
+  	<navigator class="footerTab" url="/pages/knowledge/knowledge" hover-class="other-navigator-hover">
+	  <view class="iconfont icon-aixin"></view>知识
+	</navigator>
+</view>

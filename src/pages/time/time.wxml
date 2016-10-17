@@ -1,0 +1,15 @@
+<view class="container">
+    <view class="header">
+        { <text class="title">放心干活吧！喝水会提醒哦~</text> }
+    </view>
+    <view class="remind" bindtap="audioPause">
+        <view class="iconfont icon-aixin gray aixinPos" style="{{'height:'+ aixinHeight + 'px'}}"></view>
+        <view class="iconfont icon-aixin pink aixinPos"></view>
+    </view>
+    
+    <text>{{time}}</text>
+</view>
+
+<audio poster="{{poster}}" name="{{name}}" author="{{author}}" src="{{src}}" action="{{action}}"></audio>
+
+<view class="footer">Design by elly</view>

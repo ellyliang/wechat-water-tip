@@ -1,0 +1,19 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/time/time",
+    "pages/knowledge/knowledge"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#e85694",
+    "navigationBarTitleText": "粉色喝水提醒",
+    "navigationBarTextStyle":"#fff"
+  },
+  "tabBar": {
+    "index": [{
+      "pagePath": "pages/index/index",
+      "text": "粉色喝水提醒"
+    }]
+  }
+}

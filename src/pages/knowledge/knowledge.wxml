@@ -1,0 +1,22 @@
+<view class="kContainer">
+    <view class="header">
+        { <text class="title">你想知道最佳喝水时间吗？</text> }
+    </view>
+
+    <view class="main">
+        <button type="default" bindtap="actionSheetTap">{{actionButtonText}}</button>
+    </view>
+
+    <view class="main kText" wx:if="{{actionTimeContent != ''}}">
+        { <span class="kContent">{{actionTimeContent}}</span> }
+    </view>
+
+    <action-sheet hidden="{{actionSheetHidden}}" bindchange="actionSheetChange">
+    <block wx:for="{{actionSheetItems}}">
+        <action-sheet-item id="{{index}}" class="item" bindtap="bindItemTap" data-name="{{item}}" data-id="{{1}}">{{item}}</action-sheet-item>
+    </block>
+    <action-sheet-cancel class="cancel">取消</action-sheet-cancel>
+    </action-sheet>
+</view>
+
+<view class="footer">Design by elly</view>
